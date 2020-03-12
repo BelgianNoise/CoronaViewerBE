@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    z-index: 99;
+    height: 15%;
+    overflow: hidden;
+}
+h3{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    height: 100%;
+    padding-top: 2%;
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 85%;
+}
+p{
+    display: block;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#inf{
+    background-color: rgb(233, 233, 78);
+}
+#dead{
+    background-color: lightcoral;
+}
+#heal{
+    background-color: lightgreen;
+}
