@@ -25,7 +25,7 @@ function get(dbRef){
         var belgieGenezen = belGenezen;
         var belgieGeinfecteerd = belGeinfecteerd;
 
-        $("#inf").html("<br><br><br><br><br><br>Geînfecteerd:<br><br>" + belgieGeinfecteerd.toString());
+        $("#inf").html("<br><br><br><br><br><br>Geïnfecteerd:<br><br>" + belgieGeinfecteerd.toString());
         $("#heal").html("<br><br><br><br><br><br>Genezen:<br><br>" + belgieGenezen.toString());
         $("#dead").html("<br><br><br><br><br><br>Doden:<br><br>" + belgieOverleden.toString());
     }
