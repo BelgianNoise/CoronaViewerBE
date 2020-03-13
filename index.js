@@ -32,5 +32,5 @@ function get(dbRef){
     console.log("git got da data!")
     setTimeout(() => {
         get(dbRef)
-    }, 3000);
+    }, 5000);
 }
